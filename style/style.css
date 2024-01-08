@@ -1,10 +1,9 @@
 /* font link */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body{
-    font-family: "Roboto", sans-serif;
-    line-height: normal;
-
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
 }
 .myheader {
   display: flex;
@@ -29,6 +28,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 .img_box {
   background-image: url(../images/main_greece.svg);
@@ -58,7 +58,7 @@ a {
 .main {
   display: flex;
   /* justify-content: space-between; არ მუშაობს */
-  gap: 83px; 
+  gap: 83px;
   margin-bottom: 140px;
 }
 .feedback_text {
@@ -70,6 +70,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 56px 33px;
+  width: 924px;
 }
 .services {
   margin-top: 9px;
@@ -92,6 +93,7 @@ a {
   font-size: 18px;
   font-weight: 400;
 }
-.corporate, .trip{
-    margin-right: 0;
+.corporate,
+.trip {
+  margin-right: 0;
 }
